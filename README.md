@@ -18,8 +18,9 @@ when all three of these happen together**:
    watch-time figure).
 3. **Watch time collapses.** The post's average watch time drops by at least 15%.
 
-Even on a flagged day, only the views that the channel's usual engagement can't
-explain are counted, never the whole jump.
+When a day is flagged, the fake views are counted exactly rather than guessed:
+if 10,000 new views arrive with only enough likes and comments for about 2,000
+real viewers, the other 8,000 are counted as bot traffic.
 
 ## What it deliberately ignores
 
